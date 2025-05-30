@@ -4,4 +4,203 @@
 .rightfix{
     float:right;
 }
+.center{
+    margin: 0 auto;
+}
+.clear::after{
+    display: block;
+    content: none;
+    clear:both;
+}
+.body{
+    background-color: #101010;
+    font-size: 16px;
+}
+.content,
+.aum-pic,
+.aum-content,
+.live,
+.aum-data,
+/* .play, */
+.hydrata{
+padding: 5px;
+}
 
+
+.gendesktop{
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+}
+.topbar{
+    width: 95%;
+    height: 56px;
+}
+.slide-content{
+    
+    width: 5%;
+    /* height: 100%; */
+    height: 1280px;
+    background-color: #101010;
+}
+.slide-nav{
+    padding: 5px;
+}
+.logo{
+    height: 52px;
+    width: 52px;
+    margin-top: 20px;
+    margin-left: 8px;
+    background-image: url(https://app.gensokyoradio.net/assets/images/gensokyo-radio-logo-text-white-appv2.png);
+}
+.slidenav-pic{
+    width: 52px;
+    height: 48px;
+    background-image: url(https://1drv.ms/i/c/cc66baca086e890a/EQ7qOUwBhZlKhHX2cuxfFS8BmX1KCRWQAJVC67bBIkU1ow?e=3xegmh);
+    /* background-position: 3px ; */
+}
+.slide-nav ul li:nth-child(1) a div{
+    background-position: 2px 0px;
+}
+.slide-nav ul li:nth-child(2) a div{
+    background-position: 2px -76px;
+}
+.slide-nav ul li:nth-child(3) a div{
+    background-position: 2px -156px;
+}
+.slide-nav ul li:nth-child(4) a div{
+    background-position: 2px -234px;
+}
+.slide-nav ul li:nth-child(5) a div{
+    background-position: 2px -312px;
+}
+.slide-nav ul li:nth-child(6) a div{
+    background-position: 2px -394px;
+}
+.slide-nav ul li:nth-child(7) a div{
+    background-position: 2px -472px;
+}
+.slide-nav ul li:nth-child(8) a div{
+    background-position: 2px -554px;
+}
+.slide-nav ul li:nth-child(9) a div{
+    background-position: 2px -628px;
+}
+
+.slide-nav ul{
+    /* padding-top: 20px; */
+    width: 58px;
+    /* padding-left: 8px; */
+    margin: 3px 0px;
+    padding: 30px 3px;
+}
+
+.slide-nav ul li{
+    padding: 5px;
+}
+.user-nav{
+    padding: 20px 0px;
+    width: 58px;
+}
+.user-nav ul li{
+    padding: 5px;
+}
+.usernav-pic1{
+    background-image: url(https://1drv.ms/i/c/cc66baca086e890a/EYlJw1M8iDxHkdFrEUOxJKgB_nzdkugBPT9dqd-z-bWJ0A?e=6z0Orc);
+}
+.usernav-pic2{
+    background-image: url(https://1drv.ms/i/c/cc66baca086e890a/EdEX6xFYF11CqMZQGgTUdZ8BTWK8crP3daGwP0Qw_H34Ag?e=kJZ83M);
+}
+.main-content{
+
+    height: 1273px;
+    width: 95%;
+    /* width: 1620px; */
+    background-color: #0b031b;
+}
+.line-content{
+    height: 80px;
+    padding: 5px;
+}
+.aum-pic img{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+}
+.aum-pic{
+    width: 95%;
+}
+.time-line{
+    height: 42px;
+    width: 900px;
+}
+.time{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 42px;
+    text-align: center;
+    width: 45px;
+    height: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.line{
+    height: 42px;
+    width: 716px;
+    padding: 0 10px;
+    border-radius: 5px;
+
+}
+.line div:first-child{
+    width: 700px;
+    height: 6px;
+    background-color: #2fdf75;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 3px;
+    border-radius: 3px;
+}
+.line div:nth-child(2){
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #2fdf75;
+    right:6px;
+    position: relative;
+}
+.live{
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+    width: 107px;
+    height: 20px;
+    color: #020000;
+    background-color: #2fdf75;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.aumdata{
+    padding: 5px;
+    /* width: 95%; */
+    text-align: center;
+    /* height: 100px; */
+    height: 102px;
+}
+.aum-songname{
+    font-size: 26px;
+    color: #fff;
+    font-weight: bolder;
+    /* width: 480px; */
+    height: 32px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+}
+.aum-name,
+.aum-wit{
+    font-size: 16px;
+    color:  #989aa2;
+}
